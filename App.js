@@ -8,11 +8,18 @@ import Login from './component/auth/Login';
 import LoginAnser from './component/auth/LoginAnswer';
 import MemberList from './component/admin/MemberList';
 import MemberListAnser from './component/admin/MemberListAnser';
+import Home from './\bhome/Home';
 
 function App() {
   return (
     <Router>
       <Routes>
+        <Route
+          path="/"
+          element={
+            <Home />
+          }
+        />
         <Route
           path="/auth/login"
           element={
