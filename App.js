@@ -8,7 +8,7 @@ import Login from './component/auth/Login';
 import LoginAnser from './component/auth/LoginAnswer';
 import MemberList from './component/admin/MemberList';
 import MemberListAnser from './component/admin/MemberListAnser';
-import Home from './\bhome/Home';
+import Home from './component/\bhome/Home';
 
 function App() {
   return (
