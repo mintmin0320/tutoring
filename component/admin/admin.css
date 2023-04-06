@@ -1,0 +1,116 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2E0F7;
+}
+
+.memo {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: solid 1px black;
+  border-right: solid 1px black;
+  border-left: solid 1px black;
+  background-color: white;
+}
+
+.user-id1 {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.user-id2 {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.content {
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: solid 1px black;
+}
+
+.block-text {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px black;
+}
+
+.request-btn {
+  width: 95%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.block-info {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  width: 100%;
+  height: 90%;
+  border: solid 1px black;
+}
+
+.info-id {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.info-name {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-top: solid 1px black;
+}
+
+.info-date {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-top: solid 1px black;
+}
+
+.block-auth__element-input {
+  width: 45%;
+  height: 40%;
+  font-size: 16px;
+}
