@@ -16,7 +16,7 @@ export default function LoginAnser() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = `http://localhost:80/auth/login`;
+    const url = `http://50.19.56.144:8080/auth/login`;
     const data = {
       email: userId,
       password: userPw,

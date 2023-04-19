@@ -17,7 +17,7 @@ export default function Login() {
   //아래 함수를 작성하시오.
   const handleSubmit = (e) => {
     // 요청보내야 할 주소
-    // http://localhost:80/auth/login
+    // http://50.19.56.144:8080/auth/login
     // hint : 로그인이니까 무슨 메소드 일까요
     // hint2 : body, Parameter 어떤 방식으로 데이터를 담을까요
 

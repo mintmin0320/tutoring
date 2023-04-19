@@ -14,7 +14,7 @@ export default function MemberListAnser() {
   }
 
   const handleGetInfo = async () => {
-    // url = `http://localhost:80/auth/${id}`
+    // url = `http://50.19.56.144:8080/auth/${id}`
 
 
     // email, name, createdAt에 서버에서 받은 데이터 저장하기

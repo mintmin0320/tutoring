@@ -14,7 +14,7 @@ export default function MemberListAnser() {
   }
 
   const handleGetInfo = async () => {
-    const url = `http://localhost:80/auth/${id}`
+    const url = `http://50.19.56.144:8080/auth/${id}`
     const res = await axios.get(url, { withCredentials: true });
     console.log(res);
     try {
